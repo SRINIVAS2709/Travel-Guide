@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(./assets/background.png);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    width: 100%;
+    
+}
+nav ul li a{
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.btn{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #f5168d;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn img{
+    width: 17px;
+    margin-right: 8px;
+}
+
+.content{
+    margin-top: 14%;
+    max-width: 620px;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-bottom: 25px;
+    line-height: 85px;
+    font-weight: 600;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
